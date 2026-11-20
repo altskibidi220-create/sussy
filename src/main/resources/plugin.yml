@@ -1,0 +1,15 @@
+name: SoulSMP
+version: 1.0.0
+main: dev.soulsmp.SoulPlugin
+api-version: '1.21'
+description: Infuse-style souls with abilities, VFX, SFX and HUD.
+commands:
+  soul:
+    description: Open the soul test GUI / manage souls
+    usage: /soul [set|give|clear|roll|cooldown] ...
+    aliases: [souls]
+    permission: soulsmp.admin
+permissions:
+  soulsmp.admin:
+    description: Access to /soul
+    default: op

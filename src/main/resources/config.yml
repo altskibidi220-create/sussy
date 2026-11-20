@@ -1,0 +1,27 @@
+# Souls are lost on death. If true, a new random soul is rolled (with the animation) after respawn.
+reroll-on-death: true
+
+# Use the custom font icon (from the resource pack) in the action-bar HUD.
+# Set to false if you don't use the resource pack.
+hud-icon-font: true
+
+# Optional: have the plugin send the resource pack on join.
+resource-pack:
+  url: ""
+  sha1: ""
+
+# Ability cooldowns in SECONDS. primary = F, secondary = Shift+F.
+# Change them and run /soul reload (no restart needed).
+cooldowns:
+  vitality:  {primary: 30, secondary: 45}
+  might:     {primary: 40, secondary: 22}
+  swiftness: {primary: 8,  secondary: 30}
+  inferno:   {primary: 12, secondary: 35}
+  frost:     {primary: 28, secondary: 14}
+  tempest:   {primary: 18, secondary: 22}
+  gale:      {primary: 18, secondary: 20}
+  terra:     {primary: 40, secondary: 26}
+  tide:      {primary: 20, secondary: 32}
+  shadow:    {primary: 10, secondary: 40}
+  venom:     {primary: 30, secondary: 15}
+  radiance:  {primary: 14, secondary: 45}
